@@ -1,2 +1,1 @@
-# skalavind
-Skalavind
+# Skalavind
