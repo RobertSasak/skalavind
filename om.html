@@ -2,14 +2,19 @@
 <html>
   <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7PXSHE0M5M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7PXSHE0M5M"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
 
-  gtag('config', 'G-7PXSHE0M5M');
-</script>
+      gtag('config', 'G-7PXSHE0M5M')
+    </script>
     <title>Om - SKALAVIND</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -84,6 +89,10 @@
       }
       article a:hover {
         text-decoration: underline;
+      }
+      article #prices {
+        width: 100%;
+        max-width: 400px;
       }
       footer {
         position: fixed;
@@ -218,7 +227,7 @@
         <li>Digitalisering og opptegning av eksisterende bygg</li>
       </ul>
       <h2>UTMERKELSER</h2>
-      <img src="/images/utmerkelser.jpg" />
+      <img src="/images/utmerkelser.png" id="prices" />
       <h4>
         Grundig planlegging av riktige intensjoner og retning i skissefasen er
         essensielt.
